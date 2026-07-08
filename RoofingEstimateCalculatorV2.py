@@ -1,0 +1,11 @@
+name = input("First and Last Name: ")
+roof_length = input("Roof Length (in feet): ")
+roof_width = input("Roof Width (in feet): ")
+
+print("=" * 25)
+print("Roofing Estimate")
+print("=" * 25)
+print("\nCustomer: " + name)
+print("\nRoof Length: " + roof_length + " feet")
+print("\nRoof Width: " + roof_width + " feet")
+print("\nRoof Area: " +  str(int(roof_length) * int(roof_width)) + "sq. ft")
